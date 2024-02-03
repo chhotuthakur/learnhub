@@ -1,0 +1,48 @@
+<div class="card course-card">
+                            <div class="card-body">
+                                <h5 class="card-title">Software Development 101</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                <p class="card-text">Price: ₹50</p>
+                                <a href="classdetails.html" class="btn btn-primary">Enroll Now</a>
+                            </div>
+                        </div>
+
+
+                           <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            My Classes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Search Classes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Settings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            About
+                        </a>
+                    </li>
+                </ul>

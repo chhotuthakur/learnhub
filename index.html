@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>LearnHub - Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Font Awesome CSS (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <style>
+        /* Add your custom styles here */
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .sidebar {
+            background-color: #343a40;
+            color: #ffffff;
+            height: 100vh;
+            position: fixed;
+            width: 250px;
+            padding-top: 20px;
+            display: none;
+            /* initially hide on smaller screens */
+        }
+
+        .sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            color: #ffffff;
+            display: block;
+        }
+
+        .sidebar a:hover {
+            background-color: #6c757d;
+        }
+
+        .navbar {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        .course-card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav id="sidebar" class="col-md-2 d-none d-md-block sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                My Classes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Search Classes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Settings
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                FAQ
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                    <button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                    <a class="navbar-brand" href="#">LearnHub</a>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                            <!-- Add additional navbar items here -->
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Course Cards -->
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card course-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Software Development 101</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                    <p class="card-text">Price: ₹50</p>
+                                    <a href="classdetails.html" class="btn btn-primary">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card course-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Software Development 101</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                    <p class="card-text">Price: ₹50</p>
+                                    <a href="classdetails.html" class="btn btn-primary">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card course-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Software Development 101</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                    <p class="card-text">Price: ₹50</p>
+                                    <a href="classdetails.html" class="btn btn-primary">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card course-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Software Development 101</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                    <p class="card-text">Price: ₹50</p>
+                                    <a href="classdetails.html" class="btn btn-primary">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card course-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Software Development 101</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                    <p class="card-text">Price: ₹50</p>
+                                    <a href="classdetails.html" class="btn btn-primary">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add more course cards as needed -->
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script>
+    // Toggle sidebar visibility on smaller screens
+    $(document).ready(function () {
+        $('#navbar-toggler').on('click', function () {
+            $('#sidebar').slideToggle();
+        });
+    });
+</script>
+
+</body>
+
+</html>

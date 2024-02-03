@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>LearnHub - Class Details</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Font Awesome CSS (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <style>
+        /* Add your custom styles here */
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .btn-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Software Development 101</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p class="card-text">Price: ₹50</p>
+            <button id="payNowBtn" class="btn btn-primary" onclick="payNow()">Pay Now</button>
+            <button id="enrollBtn" class="btn btn-success" onclick="enroll()">Enroll</button>
+        </div>
+    </div>
+
+    <!-- Button container -->
+    <div class="btn-container">
+        <button class="btn btn-secondary" onclick="goToHome()">Go Back to Home</button>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script>
+    function payNow() {
+        // Display an alert message
+        alert("Course has been added to your account. You can find it in 'My Classes.'");
+
+        // Disable the "Pay Now" button
+        document.getElementById("payNowBtn").disabled = true;
+    }
+
+    function enroll() {
+        // Perform any additional actions when enrolling, if needed
+        alert("You have successfully enrolled in the course!");
+    }
+
+    function goToHome() {
+        // Redirect to the home page
+        window.location.href = "index.html";
+    }
+</script>
+
+</body>
+</html>
